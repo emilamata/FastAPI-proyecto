@@ -2,6 +2,8 @@ from typing import Union
 from fastapi import FastAPI
 from pydantic import BaseModel
 
+from models.item_model import Item
+
 # Creacíon de una aplicacíon FastAPI:
 app = FastAPI()
 
